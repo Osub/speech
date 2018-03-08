@@ -1,0 +1,9 @@
+{
+    "name": "machero/speech",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Machero\\Speech\\": "src/"
+        }
+    }
+}
