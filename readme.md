@@ -1,10 +1,10 @@
-##introduction
+## Introduction
     本项目是基于百度智能语音的SDK扩展封装为php的composer包
 
-## install
+## Install
  `composer require machero/speech`
 
-##use
+## Use
 ```php
 
     $speech = new AipSpeech(
@@ -19,5 +19,5 @@
      *
      */
     $mp3 = $this->speech->synthesis($text, $lang='zh', $ctp=1, $options=array('spd'=>3));
-    具体请参考百度智能语音开发文档
+    //具体请参考百度智能语音开发文档
 ```
